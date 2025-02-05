@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Thuan Pham",
   desc: "Thuan Pham, a video editor based in Ho Chi Minh City, who goes by VND.mp4.",
   title: "Cut By Pham",
-  ogImage: "cutbypham-og.webp",
+  ogImage: "cutbypham-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 9999,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
