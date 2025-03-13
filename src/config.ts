@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Cut By Pham",
   ogImage: "cutbypham-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 9999,
+  postPerPage: 999,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
