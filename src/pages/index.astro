@@ -150,18 +150,24 @@ import editLikeYouGiveAF from "@assets/images/af.png";
         </div><script src="https://player.vimeo.com/api/player.js"></script>
       </section>
       <section>
-        <a href="mailto:cutbypham@gmail.com">
-          <button
-            type="button"
-            id="shake-button"
-            class="mb-8 me-2 ml-2 rounded-lg bg-green-700 px-5 py-2.5 text-5xl font-medium text-white hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-            >Let's work together</button
-          >
-        </a>
-      </section>
+
+<button
+  type="button"
+  id="shake-button"
+  class="mb-8 me-2 ml-2 rounded-lg bg-green-700 px-5 py-2.5 text-5xl font-medium text-white hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+>
+  Let's work together
+</button>
+
+<script is:inline>
+  document.getElementById('shake-button').addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.location.href = 'mailto:cutbypham@gmail.com';
+  });
+</script>
+                
     </section>
   </main>
-
   <style>
     #hero {
       @apply pb-6 pt-8;
