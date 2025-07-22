@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://cutbypham.pages.dev/", // replace this with your deployed domain
   author: "Thuan Pham",
-  desc: "Thuan Pham, a video editor based in Ho Chi Minh City, who goes by VND.mp4.",
+  desc: "Thuan Pham, a video editor based in Ho Chi Minh City",
   title: "Cut By Pham",
   ogImage: "cutbypham-og.jpg",
   lightAndDarkMode: true,
