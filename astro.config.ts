@@ -6,8 +6,6 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
-import playformCompress from "@playform/compress";
-
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -20,9 +18,6 @@ export default defineConfig({
     }),
     react(),
     sitemap(),
-    (await import("@playform/compress")).default({
-      CSS: false,
-    }),
   ],
   markdown: {
     remarkPlugins: [
