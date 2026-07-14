@@ -24,32 +24,34 @@ import editLikeYouGiveAF from "@assets/images/af.png";
               alt="edit like you give a f"
               loading="lazy"
             />
-            <div id="">
-              <Image
-                class="mb-3 rounded-full"
-                src={thuanFace}
-                width={350}
-                format={"webp"}
-                alt="Thuan Pham"
-                loading="lazy"
-              />
+<div class="relative inline-block">
+  <div class="absolute inset-0 rounded-full bg-amber-300/40 blur-3xl dark:bg-amber-500/20"></div>
+
+  <Image
+    class="relative mb-3 rounded-full"
+    src={thuanFace}
+    width={350}
+    format={"webp"}
+    alt="Thuan Pham"
+    loading="lazy"
+  />
+</div>
+<div class="mt-10 text-xl">
+              <p>No nonsense, overdone motion effects, or distracting sound effects</p>
+              <p>Focused on building long-term brands and real revenue, not just vanity metrics (views/subs)</p>
+              <div>
+<p   id="waitlist"
+ class="border-l-4 border-amber-200 dark:border-amber-900 bg-amber-50 dark:bg-amber-950/30 rounded-r-lg px-4 py-3 italic text-stone-600 dark:text-stone-300">
+  currently at capacity, join the waitlist and i’ll let you know when i’m available
+</p>
             </div>
-            <div class="text-xl">
-              <p>
-               - No nonsense, overdone motion effects, or distracting sound effects.
-              </p>
-              <p>
-- Focused on building long-term brands and real revenue, not just vanity metrics (views/subs).              </p>
- <p>
-If you understand this mindset, let’s talk.          </p>
-              <p>
-                Email: <a
-                  href="mailto:cutbypham"
+            </div>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdctI_yCPq3AJ7GmC_nUaVbdFKvzqR9WVxRwZRfccYJf24JxA/viewform?embedded=true" width="640" height="763" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <p>Questions? Email me at: <a href="mailto:cutbypham"
                   class="text-xl font-bold text-green-500 decoration-dashed hover:text-green-400 hover:underline"
                   >cutbypham@gmail.com</a
                 >
               </p>
-            </div>
           </div>
           <section id="lifestyle" class="mb-8 mt-8">
             <br />
@@ -149,24 +151,25 @@ If you understand this mindset, let’s talk.          </p>
             </div><script src="https://player.vimeo.com/api/player.js"></script>
             <br />
           </section>
-          <section>
-            <button
-              type="button"
-              id="shake-button"
-              class="mb-8 me-2 ml-2 rounded-lg bg-green-700 px-5 py-2.5 text-5xl font-medium text-white hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-            >
-              Let's work together
-            </button>
+<section>
+  <button
+    type="button"
+    id="shake-button"
+    class="mb-8 me-2 ml-2 rounded-lg bg-green-700 px-5 py-2.5 text-5xl font-medium text-white hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+  >
+    Let's work together
+  </button>
 
-            <script is:inline>
-              document
-                .getElementById("shake-button")
-                .addEventListener("click", function () {
-                  window.scrollTo({ top: 0, behavior: "smooth" });
-                  window.location.href = "mailto:cutbypham@gmail.com";
-                });
-            </script>
-          </section>
+<script is:inline>
+  document
+    .getElementById("shake-button")
+    .addEventListener("click", function () {
+      document
+        .getElementById("waitlist")
+        .scrollIntoView({ behavior: "smooth" });
+    });
+</script>
+</section>
         </div>
         <style>
           #hero {
